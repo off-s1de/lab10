@@ -10,7 +10,6 @@ pool:
   name: 'MyLocalPool' # Your self-hosted agent pool name
 
 steps:
-steps:
   # Step 1: Checkout the Code from GitHub
   - checkout: self
     displayName: 'Checkout Code from GitHub'
